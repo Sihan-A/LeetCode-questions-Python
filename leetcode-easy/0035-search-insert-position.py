@@ -5,3 +5,13 @@ https://leetcode.cn/problems/search-insert-position/
 如果目标值不存在于数组中，返回它将会被按顺序插入的位置。
 请必须使用时间复杂度为O(logn)的算法。
 """
+from typing import List
+
+#方法1: 实在做不出来时候
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        nums.append(target)
+        nums.sort()
+        return nums.index(target)
+
+#方法2: 二分法
