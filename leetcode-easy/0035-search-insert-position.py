@@ -14,4 +14,23 @@ class Solution:
         nums.sort()
         return nums.index(target)
 
-#方法2: 二分法
+#方法2: 二分法 2022.08.17
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        left, right = 0, len(nums)-1
+        
+        # 如果target在nums里，二分法找到
+        while left <= right:
+            middle = (left+right) // 2
+            if nums[middle] > target:
+                right = middle - 1
+            elif nums[middle] < target:
+                left = middle + 1
+            else:
+                return middle
+        
+        # 如果target不在nums里
+        if nums[middle] > target:
+            return middle
+        else:
+            return middle + 1
