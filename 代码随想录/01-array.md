@@ -12,4 +12,4 @@
 middle = (left + right) // 2
 ```
 
-### 
+### [35.搜索插入位置](https://github.com/Sihan-A/LeetCode-questions-Python/blob/main/leetcode-easy/0035-search-insert-position.py)
