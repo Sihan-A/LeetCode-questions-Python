@@ -1,4 +1,3 @@
-# LeetCode-questions-Python
-力扣题的笔记
+# LeetCode Questions Python
 
-主要参考代码随想录
+代码随想录：[我的笔记]()｜[官网](https://programmercarl.com/)｜[GitHub](https://github.com/youngyangyang04/leetcode-master)
