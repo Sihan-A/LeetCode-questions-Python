@@ -24,3 +24,5 @@ middle = (left + right) // 2
 ### [26. 删除有序数组中的重复项](https://github.com/Sihan-A/LeetCode-questions-Python/blob/main/leetcode-easy/0026-remove-duplicates-from-sorted-array.py)
 
 - [知乎：LeetCode 题解 | 26. 删除排序数组中的重复项](https://zhuanlan.zhihu.com/p/41373837)
+
+### [283.移动零]()

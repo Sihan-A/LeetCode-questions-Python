@@ -9,3 +9,20 @@ https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
 将最终结果插入nums的前k个位置后返回k。
 不要使用额外的空间，你必须在原地修改输入数组并在使用O(1)额外空间的条件下完成。
 """
+from typing import List
+
+# 双指针
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        n = len(nums)
+        if n < 2:
+            return n
+        fast, slow = 1, 1
+
+        while fast < n:
+            if nums[fast] != nums[fast-1]:
+                nums[slow] = nums[fast]
+                slow += 1
+            fast += 1
+        
+        return slow
