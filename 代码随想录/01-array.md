@@ -26,3 +26,9 @@ middle = (left + right) // 2
 - [知乎：LeetCode 题解 | 26. 删除排序数组中的重复项](https://zhuanlan.zhihu.com/p/41373837)
 
 ### [283.移动零](https://github.com/Sihan-A/LeetCode-questions-Python/blob/main/leetcode-easy/0283-move-zeroes.py)
+
+977.有序数组的平方
+---
+
+- 滑动窗口
+
